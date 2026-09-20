@@ -1,0 +1,139 @@
+{
+  "person": {
+    "name": "Ma. Rodieza Dela Cruz Gabriel",
+    "displayName": "Rodieza Gabriel",
+    "location": "Binangonan, Rizal, Philippines",
+    "email": "gabriel.ma.rodieza.000@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/marodiezagabriel",
+    "historicalTitle": "Accounting Assistant",
+    "resume": "Rodieza-Gabriel-Accounts-Payable-Resume.pdf",
+    "workbook": "Rodieza-Gabriel-Accounting-Work-Sample.xlsx"
+  },
+  "experience": [
+    {
+      "id": "foundation",
+      "year": "2015",
+      "date": "July 2015 – March 2020",
+      "company": "Clargis Food Ventures, Inc.",
+      "context": "Red Ribbon franchise",
+      "title": "Accounting Assistant",
+      "heading": "A foundation in cash and records.",
+      "narrative": "Daily transaction entry in QuickBooks Desktop, branch cash monitoring and sales reconciliation formed the foundation of her accounting work.",
+      "scope": "Recorded transactions, compared cash-monitoring reports with theoretical sales, tracked deposit slips and reviewed daily bank statements.",
+      "control": "Kept supporting receipts, vouchers and financial documents organized alongside branch cash records.",
+      "keywords": [
+        "Cash monitoring",
+        "Sales reconciliation",
+        "QuickBooks Desktop",
+        "Financial documentation"
+      ]
+    },
+    {
+      "id": "operations",
+      "year": "2021",
+      "date": "January 2021 – May 2022",
+      "company": "SNDT EXPRES CORPORATION",
+      "context": "Pasig City, Philippines",
+      "title": "Accounting Assistant",
+      "heading": "Broader payment and payroll responsibilities.",
+      "narrative": "Her scope expanded into vendor payments, payroll, cash disbursement and daily collection reconciliation.",
+      "scope": "Processed payment requests, prepared cash and check vouchers, handled employee payroll and monitored accounts payable.",
+      "control": "Reconciled cash-on-delivery and cash-on-pickup transactions, monitored petty cash and revolving funds, and followed up on payment items.",
+      "keywords": [
+        "Vendor payments",
+        "Payroll processing",
+        "Cash disbursement",
+        "COD / COP reconciliation"
+      ]
+    },
+    {
+      "id": "controls",
+      "year": "2022",
+      "date": "May 2022 – Present",
+      "company": "SM Appliance Center",
+      "context": "Pasig City, Philippines",
+      "title": "Accounting Assistant",
+      "heading": "Financial controls at greater volume.",
+      "narrative": "She now personally reviews more than 5,000 vendor invoices each month, with responsibility for billing checks and supporting documentation.",
+      "scope": "Reviews vendor invoices and purchase orders for accuracy, authorization and documentation; checks rental, utility and freight billings.",
+      "control": "Identifies billing discrepancies, reviews petty cash reconciliations and maintains records for internal and external audits.",
+      "keywords": [
+        "Accounts Payable",
+        "Invoice processing",
+        "Purchase orders",
+        "Financial controls",
+        "Audit documentation"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Microsoft Excel",
+      "scope": "PivotTables · VLOOKUP · COUNTIF",
+      "evidence": "PivotTables for summaries, VLOOKUP for matching records and COUNTIF for counting entries. Explore these formulas in the guided Accounting Lab.",
+      "type": "tool",
+      "mark": "xl"
+    },
+    {
+      "name": "QuickBooks Desktop",
+      "scope": "Transaction entry and financial tracking",
+      "evidence": "Professional use at Clargis Food Ventures, 2015–2020: daily transaction entry and financial tracking.",
+      "type": "tool",
+      "mark": "qb"
+    }
+  ],
+  "credentials": [],
+  "lab": {
+    "status": "guided-draft",
+    "title": "Invoice controls & cash reconciliation",
+    "source": "AI-assisted practice sample using fictional data. Pending Rodieza’s review and independent completion.",
+    "invoices": 21,
+    "ready": 7,
+    "review": 7,
+    "eligible": 69150
+  },
+  "roadmap": [
+    {
+      "id": "bank-reconciliation",
+      "order": "01",
+      "title": "Bank reconciliation",
+      "status": "planned",
+      "goal": "Reconcile a fictional cashbook to a bank statement, explain timing differences and document proposed adjustments."
+    },
+    {
+      "id": "ap-aging",
+      "order": "02",
+      "title": "Accounts payable / AP aging",
+      "status": "planned",
+      "goal": "Build aging buckets, reconcile supplier balances and explain payment priorities from a fictional invoice register."
+    },
+    {
+      "id": "excel-analysis",
+      "order": "03",
+      "title": "Advanced Excel accounting analysis",
+      "status": "planned",
+      "goal": "Demonstrate data cleaning, lookup controls and an accounting summary with a documented refresh process."
+    },
+    {
+      "id": "qbo-workflow",
+      "order": "04",
+      "title": "QuickBooks Online workflow",
+      "status": "planned",
+      "goal": "Record sample transactions, reconcile accounts and explain the workflow after hands-on training."
+    },
+    {
+      "id": "month-end",
+      "order": "05",
+      "title": "Month-end close simulation",
+      "status": "planned",
+      "goal": "Explain a fictional close checklist, trial balance, reconciliation schedules and financial-statement review."
+    },
+    {
+      "id": "payroll",
+      "order": "06",
+      "title": "Payroll reconciliation",
+      "status": "planned",
+      "goal": "Reconcile a fictional payroll register to disbursements and liabilities, with exceptions documented for review."
+    }
+  ]
+}
