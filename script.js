@@ -1,1 +1,5 @@
 'use strict';document.documentElement.classList.add('enhanced');if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>entry.target.classList.toggle('is-current',entry.isIntersecting)),{rootMargin:'-15% 0px -30% 0px',threshold:.1});document.querySelectorAll('.experience-item').forEach(item=>observer.observe(item));}
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+const reveals=[...document.querySelectorAll('.reveal')];
+if(reducedMotion.matches||!('IntersectionObserver' in window)){reveals.forEach(el=>el.classList.add('is-visible'));}else{const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}}),{rootMargin:'0px 0px -12% 0px',threshold:.08});reveals.forEach(el=>revealObserver.observe(el));}
+const header=document.querySelector('.site-header');if(header){const updateHeader=()=>header.classList.toggle('is-scrolled',window.scrollY>24);updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});}
