@@ -1,15 +1,17 @@
 # Rodieza Gabriel — Accounting Portfolio
 
-Visit the live portfolio: https://gabrielmarodieza.github.io/
+Live site: https://gabrielmarodieza.github.io/
 
-Rodieza Gabriel is an accounting professional based in Binangonan, Rizal, Philippines, with 10+ years of experience across accounts payable, vendor invoice review, payments, payroll, cash reconciliation and financial documentation.
+This branch contains an editorial refinement of the portfolio. The homepage is intentionally concise: it introduces the accounting positioning, shows the confirmed invoice scale, presents one selected-experience sequence, and links to a dedicated Accounting Lab case study.
 
-The site includes:
+Public files:
 
-- A one-page AP-focused resume
-- A fictional Excel accounting work sample clearly labeled as guided practice
-- Experience evidence covering invoice controls, vendor payments, payroll and cash reconciliation
+- index.html — curated portfolio homepage
+- accounting-lab-001.html — detailed fictional Excel case study
+- Rodieza-Gabriel-Accounts-Payable-Resume.pdf — one-page resume
+- Rodieza-Gabriel-Accounting-Work-Sample.xlsx — editable guided practice workbook
+- styles.css, script.js, favicon.svg — presentation assets
 
-The portfolio preserves her historical employment title, Accounting Assistant. It does not claim QuickBooks Online, Xero, Power Query, international-client experience or completed month-end-close ownership.
+The professional experience titles remain Accounting Assistant. The site uses confirmed evidence: 10+ years of experience, more than 5,000 personally reviewed vendor invoices monthly, Excel PivotTables/VLOOKUP/COUNTIF, and prior QuickBooks Desktop use at Clargis Food Ventures (2015–2020). Unsubstantiated percentage outcomes, current QuickBooks Online/Xero claims, international-client experience and full month-end ownership are not presented as achieved facts.
 
-The workbook is a practice sample, not an employer case study or payment authorization record.
+The Accounting Lab uses fictional data and is separate from employment results. The workbook’s “Ready” classification is not payment authorization, and the collections-to-deposit exercise is not a complete bank-to-general-ledger reconciliation.
