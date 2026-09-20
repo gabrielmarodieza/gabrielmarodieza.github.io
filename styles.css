@@ -25,3 +25,10 @@
   .proof-controls button .story-ring{width:48px;height:48px}
   .proof-controls button .story-label{font-size:9px}
 }
+@property --story-progress{syntax:'<angle>';inherits:false;initial-value:0deg}
+.proof-controls button .story-ring{position:relative;border:0;padding:3px;background:conic-gradient(var(--accent) var(--story-progress,0deg),#cbd4dc 0deg);animation:none}
+.proof-controls button .story-ring>span{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:#fff}
+.proof-controls button[aria-pressed=true] .story-ring{animation:storyProgress 6s linear forwards;box-shadow:none}
+.proof-controls button[aria-pressed=true] .story-ring>span{color:var(--ink)}
+.proof-controls:hover button[aria-pressed=true] .story-ring,.proof-controls:focus-within button[aria-pressed=true] .story-ring{animation-play-state:paused}
+@keyframes storyProgress{from{--story-progress:0deg}to{--story-progress:360deg}}

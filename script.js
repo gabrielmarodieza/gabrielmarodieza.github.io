@@ -53,3 +53,28 @@ if('IntersectionObserver' in window){
   },{rootMargin:'-15% 0px -25% 0px',threshold:0.1});
   document.querySelectorAll('.chapter').forEach(chapter=>observer.observe(chapter));
 }
+
+const storyDuration=6000;
+let storyTimer=null;
+let storyPaused=false;
+function armStoryTimer(){
+  if(storyTimer)window.clearTimeout(storyTimer);
+  if(storyPaused)return;
+  storyTimer=window.setTimeout(()=>{
+    if(storyPaused)return;
+    const current=proofButtons.findIndex(button=>button.getAttribute('aria-pressed')==='true');
+    const next=proofButtons[(current+1)%proofButtons.length];
+    if(next)next.click();
+    armStoryTimer();
+  },storyDuration);
+}
+if(controls&&proofButtons.length>1){
+  const pauseStories=()=>{storyPaused=true;if(storyTimer)window.clearTimeout(storyTimer);};
+  const resumeStories=()=>{storyPaused=false;armStoryTimer();};
+  controls.addEventListener('mouseenter',pauseStories);
+  controls.addEventListener('mouseleave',resumeStories);
+  controls.addEventListener('focusin',pauseStories);
+  controls.addEventListener('focusout',event=>{if(!controls.contains(event.relatedTarget))resumeStories();});
+  proofButtons.forEach(button=>button.addEventListener('click',()=>{armStoryTimer();}));
+  armStoryTimer();
+}
