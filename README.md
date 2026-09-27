@@ -15,3 +15,7 @@ Public files:
 The professional experience titles remain Accounting Assistant. The site uses confirmed evidence: 10+ years of experience, more than 5,000 personally reviewed vendor invoices monthly, Excel PivotTables/VLOOKUP/COUNTIF, and prior QuickBooks Desktop use at Clargis Food Ventures (2015–2020). Unsubstantiated percentage outcomes, current QuickBooks Online/Xero claims, international-client experience and full month-end ownership are not presented as achieved facts.
 
 The Accounting Lab uses fictional data and is separate from employment results. The workbook’s “Ready” classification is not payment authorization, and the collections-to-deposit exercise is not a complete bank-to-general-ledger reconciliation.
+
+## Writing voice
+
+Use first person (I/my) for personal introductions, experience narratives and contact copy. This is Rodieza's own portfolio. Keep names in branding and neutral language for navigation, technical explanations and data labels. Do not turn guided practice into claims of independently completed work or employer results.
